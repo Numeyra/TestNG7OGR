@@ -15,6 +15,7 @@ import Utlity.BaseDriver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.openqa.selenium.TimeoutException;
 import org.testng.annotations.Test;
 
 public class _01_PlaceOrder_POM extends BaseDriver {

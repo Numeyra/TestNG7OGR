@@ -15,8 +15,6 @@ public class _02_WishList extends BaseDriver {
 
     @Test
     public void addToWishList(){
-
-
         WebElement searchBox=driver.findElement(By.name("search"));
         searchBox.sendKeys("ipod"+ Keys.ENTER);
 

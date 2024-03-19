@@ -20,7 +20,7 @@ public class _02_WishList_Elements {
  public List<WebElement> productNameList;
 
 
- @FindBy(linkText = "wishlist-total")
+ @FindBy(id= "wishlist-total")
  public WebElement wishListLink;
 
 
